@@ -1,4 +1,5 @@
-import { Navbar } from "@/ui/components/Navbar"
+import Navbar from "@/ui/components/Navbar";
+import Cards from "@/ui/components/Cards";
 const Home = () => {
 
     return (
@@ -6,13 +7,10 @@ const Home = () => {
            <Navbar />
             <div className='flex justify-center items-center h-screen'>
                 <h1 className='text-3xl font-bold underline'>Afrowide</h1>
+                <Cards />
             </div>
-        </>
-        
-        
-        
-
-        
+            
+        </>        
     )
 }
 

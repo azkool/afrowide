@@ -1,6 +1,6 @@
 import { IoMenuSharp, IoSearch } from 'react-icons/io5'
 import Link from 'next/link'
-export function Navbar() {
+const Navbar = () => {
   return (
     <div className="flex justify-between items-center h-16 bg-white text-white px-8">
       <div>
@@ -13,3 +13,5 @@ export function Navbar() {
     </div>
   )
 }
+
+export default Navbar
