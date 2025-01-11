@@ -1,16 +1,17 @@
 import Navbar from "@/ui/components/Navbar";
 import Cards from "@/ui/components/Cards";
+import Carousel from '@/ui/components/Carousel';
 const Home = () => {
 
     return (
-        <>
+        <div className='relative'>
            <Navbar />
-            <div className='flex justify-center items-center h-screen'>
-                <h1 className='text-3xl font-bold underline'>Afrowide</h1>
+           <Carousel />
+            <div className='h-screen'>
                 <Cards />
             </div>
             
-        </>        
+        </div>        
     )
 }
 
