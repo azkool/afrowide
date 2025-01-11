@@ -21,7 +21,7 @@ const cardsData = [
     id: 3,
     title: 'Card 3',
     description: 'This is the description for Card 3.',
-    image: 'https://res.cloudinary.com/dtaxnbfin/image/upload/v1736442928/insung-yoon-tPXZR1lijT0-unsplash_sfcsxa.jpgxample.com/image3.jpg',
+    image: 'https://res.cloudinary.com/dtaxnbfin/image/upload/v1736442930/samsung-memory-ahCy769oG4Y-unsplash_zp0jwj.jpg',
     date: new Date('2022-03-01'),
     author: 'Alice Johnson',
     authorImage: 'https://example.com/author3.jpg',
