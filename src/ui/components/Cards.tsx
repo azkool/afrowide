@@ -9,8 +9,8 @@ const Cards = () => {
   return (
     <div className="mt-[8rem] bg-white">
       {cardsData.map((card) => (
-        <div className="flex flex-col gap-3 h-screen border-[.5rem]" key={card.id}>
-            <div className="border-[.5rem] border-red-500">
+        <div className="flex flex-col gap-3" key={card.id}>
+            <div className="">
                 <div className="relative h-[18.75rem] w-full rounded-lg">
                     <Image
                         className="absolute top-0 left-0 w-full object-cover"
@@ -29,13 +29,18 @@ const Cards = () => {
                     <h2>{card.title}</h2>
                     <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, neque!</h3>
                 <div>
-                <Image
-                  className="rounded-full"
-                  src={card.authorImage}
-                  alt={''}
-                  width={30}
-                  height={30} 
-                />
+                <div className='flex gap-2'>
+                    <Image
+                    className="rounded-full"
+                    src={card.authorImage}
+                    alt={''}
+                    width={30}
+                    height={30} 
+                    />
+                    <div>
+                        <h2>{card.author}</h2>
+                    </div>
+                </div> 
               </div>
             </div>
           </div>
