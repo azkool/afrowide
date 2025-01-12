@@ -9,8 +9,8 @@ const Cards = () => {
   return (
     <div className="mt-[8rem] bg-white">
       {cardsData.map((card) => (
-        <div className="flex flex-col gap-3 h-screen border-[.5rem]" key={card.id}>
-          <div className="border-[.5rem] border-red-500">
+        <div className="flex flex-col gap-3" key={card.id}>
+          <div className="">
             <div className="relative h-[18.75rem] w-full rounded-lg">
               <Image
                 className="absolute top-0 left-0 w-full object-cover"
@@ -25,12 +25,12 @@ const Cards = () => {
               </span>
             </div>
             <div className="text-black">
-
+              <div>
                 <p>{card.date}</p>
                 <h2>{card.title}</h2>
                 <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, neque!</h3>
               
-
+</div>
               <div>
                 <Image
                   className="rounded-full"
