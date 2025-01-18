@@ -25,12 +25,12 @@ const Cards = () => {
               </span>
             </div>
             <div className="text-black">
-              <div>
+
                 <p>{card.date}</p>
                 <h2>{card.title}</h2>
                 <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, neque!</h3>
               
-</div>
+
               <div>
                 <Image
                   className="rounded-full"
